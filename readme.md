@@ -1,5 +1,9 @@
 # parcel-plugin-html-root-syntax
 
+```
+npm install parcel-plugin-html-root-syntax
+```
+
 ## Input
 
 ```
