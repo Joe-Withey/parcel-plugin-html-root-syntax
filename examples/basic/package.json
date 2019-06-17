@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
-    "parcel-plugin-html-root-syntax": "file:../../"
+    "parcel-plugin-html-root-syntax": "0.0.1"
   }
 }
