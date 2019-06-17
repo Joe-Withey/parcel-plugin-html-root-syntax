@@ -1,0 +1,2 @@
+window.config = { foo: 'bar' }
+

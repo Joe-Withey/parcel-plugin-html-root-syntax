@@ -1,0 +1,19 @@
+{
+  "name": "parcel-plugin-html-root-syntax",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joe-Withey/parcel-plugin-html-root-syntax.git"
+  },
+  "author": "Joe Withey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joe-Withey/parcel-plugin-html-root-syntax/issues"
+  },
+  "homepage": "https://github.com/Joe-Withey/parcel-plugin-html-root-syntax#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
