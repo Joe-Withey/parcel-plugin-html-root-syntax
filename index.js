@@ -19,7 +19,7 @@ function replaceRootSyntaxWithAbsolutePath(bundle) {
         const $el = $(el)
         const prop = $el.attr(attribute)
 
-        if (prop.startsWith('#')) {
+        if (prop && prop.startsWith('#')) {
           $el.attr(attribute, prop.replace(/^#/, ''))
           shouldUpdate = true
         }
