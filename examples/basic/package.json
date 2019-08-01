@@ -4,7 +4,7 @@
   "description": "A basic example",
   "scripts": {
     "start": "parcel www/example.html www/config.js www/base.css",
-    "build": "parcel build www/example.html",
+    "build": "parcel build www/example.html"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.3",

@@ -36,7 +36,7 @@ function forEachBundle(fn, bundle) {
   fn(bundle)
 
   if (bundle.childBundles && bundle.childBundles.size) {
-    for (const childBundle of bundle.childBundles) { // eslint-disable-line no-restricted-syntax
+    for (let childBundle of bundle.childBundles) { // eslint-disable-line no-restricted-syntax
       fn(childBundle)
     }
   }
