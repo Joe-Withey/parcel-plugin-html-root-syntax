@@ -24,11 +24,11 @@ function replaceRootSyntaxWithAbsolutePath(bundle) {
           shouldUpdate = true
         }
       })
-
-      if (shouldUpdate) {
-        fs.writeFileSync(filePath, $.html())
-      }
     })
+    
+    if (shouldUpdate) {
+      fs.writeFileSync(filePath, $.html())
+    }
   }
 }
 
